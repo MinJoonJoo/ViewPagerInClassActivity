@@ -11,7 +11,7 @@ private const val ARG_TEXT = "text"
 
 class TextFragment : Fragment() {
     private var text: String? = null
-
+        //
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
